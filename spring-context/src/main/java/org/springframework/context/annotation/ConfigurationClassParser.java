@@ -261,6 +261,7 @@ class ConfigurationClassParser {
 	 * @param configClass the configuration class being build
 	 * @param sourceClass a source class
 	 * @return the superclass, or {@code null} if none found or previously processed
+	 * 自动装配扩展点
 	 */
 	@Nullable
 	protected final SourceClass doProcessConfigurationClass(
